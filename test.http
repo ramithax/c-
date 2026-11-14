@@ -1,6 +1,9 @@
 @test_HostAddress = http://localhost:5221
 
-GET {{test_HostAddress}}/weatherforecast/
+GET {{test_HostAddress}}
 Accept: application/json
 
 ###
+
+GET {{test_HostAddress}}/2
+Accept: application/json

@@ -31,3 +31,4 @@ R:\neww\test\test\obj\Debug\net10.0\refint\test.dll
 R:\neww\test\test\obj\Debug\net10.0\test.pdb
 R:\neww\test\test\obj\Debug\net10.0\test.genruntimeconfig.cache
 R:\neww\test\test\obj\Debug\net10.0\ref\test.dll
+R:\neww\test\test\obj\Debug\net10.0\test.sourcelink.json

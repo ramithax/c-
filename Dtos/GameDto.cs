@@ -1,6 +1,6 @@
 namespace test;
 
-public record testDto(
+public record GameDto(
 
     int Id,
     string Name,
