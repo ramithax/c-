@@ -4,6 +4,6 @@ public record GameDto(
 
     int Id,
     string Name,
-    string Gendre,
+    string Genre,
     decimal Price
 );

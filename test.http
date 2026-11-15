@@ -5,5 +5,32 @@ Accept: application/json
 
 ###
 
-GET {{test_HostAddress}}/2
+GET {{test_HostAddress}}/8
 Accept: application/json
+
+###
+
+POST {{test_HostAddress}}
+Content-Type: application/json
+
+{
+    "Name" : "Ramitha",
+    "Genre" : "None",
+    "Price" : 23.00
+}
+
+###
+
+PUT {{test_HostAddress}}/7
+Content-Type: application/json
+
+{
+    "Name" : "Manilka",
+    "Genre" : "None",
+    "Price" : 27.00
+}
+
+###
+
+DELETE  {{test_HostAddress}}/1
+Content-Type: application/json
