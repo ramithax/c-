@@ -1,4 +1,4 @@
-namespace test;
+namespace test.Dtos;
 
 public record GameDto(
 

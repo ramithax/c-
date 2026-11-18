@@ -1,8 +1,9 @@
+using System.ComponentModel.DataAnnotations;
 namespace test.Dtos;
 
 public record CreateGameDto(
 
-    string Name,
-    string Genre,
-    decimal Price
+    [Required]string Name,
+    [Required]string Genre,
+    [Required]decimal Price
 );

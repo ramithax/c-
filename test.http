@@ -1,27 +1,27 @@
 @test_HostAddress = http://localhost:5221
 
-GET {{test_HostAddress}}
+GET {{test_HostAddress}}/games
 Accept: application/json
 
 ###
 
-GET {{test_HostAddress}}/8
+GET {{test_HostAddress}}/games/1
 Accept: application/json
 
 ###
 
-POST {{test_HostAddress}}
+POST {{test_HostAddress}}/games
 Content-Type: application/json
 
 {
-    "Name" : "Ramitha",
+    "Name" : "",
     "Genre" : "None",
     "Price" : 23.00
 }
 
 ###
 
-PUT {{test_HostAddress}}/7
+PUT {{test_HostAddress}}/games/1
 Content-Type: application/json
 
 {
@@ -32,5 +32,5 @@ Content-Type: application/json
 
 ###
 
-DELETE  {{test_HostAddress}}/1
+DELETE  {{test_HostAddress}}/games/1
 Content-Type: application/json
